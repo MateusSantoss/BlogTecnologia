@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+p {
+	padding: 10px;
+	color: black;
+}
+body {
+	font-size: 1em;
+	font-family:"Helvetica", sans-serif ;
+	background-color:#f4f4f4;
+}
+a {
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+}
+a:link, visited {
+	color: white;
+	background:#ff970a ;
+
+}
+a:hover, active{
+	color:#ff970a ;
+	background: white;
+
+	
+}
+img {
+	margin: 10px auto;
+	width: 600px;
+}
+span {
+	color: black;
+}
+
+/*topo da página*/
+#caixa-principal {
+	background:#ff970a ;
+	color: white;
+}
+#logo {
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#menu {
+	text-align: center;
+	padding: 10px;
+
+
+}
+.blog {
+	color: #c37913;
+}
+/*corpo da página*/
+
+ #corpo-postagem {
+ 	
+ 	width: 920px;
+ 	text-align: center;
+ 	margin: 10px auto;
+ 	
+
+
+
+ }
+ #area-postagem {
+ 	background: white;
+ 	width: 640px;
+ 	
+ 	float: left;
+
+ 	
+ }
+ #menu-lateral a:link, a:visited {
+ 	color:#ff970a ;
+ 	background: none;
+ }
+ #menu-lateral a:hover, a:active {
+ 	text-decoration: underline;
+ }
+ #menu-lateral h2 {
+ 	font-size:1.3em;
+ 	background-color: #e7e7e3;
+ }
+ #menu-lateral {
+ 	float: right;
+ 	width: 260px;
+ 	background-color: #fbfbf7;
+
+
+
+
+ }
+ .titulo {
+ 	text-align: center;
+ 	color: yellow;
+ 	border-bottom: white solid 1px;
+ 	margin: 10px;
+ 	margin-top: 10px;
+ 	background-color: #fbfbf7;
+ }
+.display {
+	display:block;
+	
+
+
+}
+.rodape {
+	background:#e7e7e3 ;
+	clear: both;
+	text-align: center;
+	margin-top: 100px;
+	padding: 5px;
+	font-size: 1.5em;
+
+}
